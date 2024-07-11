@@ -35,23 +35,23 @@ These instructions will help you set up the project on your local machine for de
    ```
 
 bash
-Copy code
+
 npm install
 or
 
 bash
-Copy code
+
 yarn install
 Running the App
 To start the development server, run:
 
 bash
-Copy code
+
 npm run dev
 or
 
 bash
-Copy code
+
 yarn dev
 The app should now be running on http://localhost:3000.
 
@@ -59,12 +59,12 @@ Building for Production
 To build the app for production, run:
 
 bash
-Copy code
+
 npm run build
 or
 
 bash
-Copy code
+
 yarn build
 The build output will be in the dist directory.
 
