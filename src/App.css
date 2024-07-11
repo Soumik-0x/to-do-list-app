@@ -1,0 +1,78 @@
+/* Base Styles */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.task-form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select,
+.task-form button {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.task-item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.task-item p {
+  margin: 5px 0;
+}
+
+.task-item button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .task-form,
+  .task-list {
+    width: 48%;
+  }
+}
